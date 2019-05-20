@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ImageManipulationFragment"
+    android:padding="10dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <Button
+        android:id="@+id/bt_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LoadImage"/>
+
+    <Button
+        android:id="@+id/bt_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ClearImage"/>
+
+</LinearLayout>
+    <com.example.Exercise.customview.ManipulationImageView
+        android:id="@+id/iv_image_manipulation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
